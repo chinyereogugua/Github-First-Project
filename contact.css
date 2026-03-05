@@ -13,7 +13,6 @@
 .contact-wrapper{
     width: 100%;
     height: 100%;
-    background-color: blue;
     background: url("/public/360_F_340757286_3ZZS0CAJBxHYdOMHiHsD7FLyC8YRj1Kc.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,18 +23,16 @@
 }
 .contact-holder{
     width: 85%;
-    height: 25%;
-    /* background: url("/public/WhatsApp\ Image\ 2026-03-05\ at\ 1.20.46\ PM.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover; */
+    height: 35%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     color: white;
 
 }
 .contact-holder1 h2{
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
 }
 .contact-holder2{
@@ -45,7 +42,7 @@
 }
 .contact-content{
     width: 100%;
-    height: 75%;
+    height: 65%;
     background-color: white;
      display: flex;
     justify-content: center;
@@ -62,17 +59,17 @@
 .contact-form{
     width: 50%;
     height: 100%;
+    color:#2c527f;
     /* background-color: blanchedalmond; */
 }
 .form-group{
     width: 90%;
     height: 20%;
-    /* background-color: hotpink; */
     display: flex;
     flex-direction: column;
 }
 .name{
-    font-size: 20px;
+    font-size: 18px;
 }
 .form-name{
     width: 100%;
@@ -112,15 +109,13 @@
     height: 14%;
     background-color:#2c527f;
     display: flex;
-    /* flex-direction: column; */
     justify-content:center;
     align-items: center;
     margin-top: 5%;
-   
 }
 .submit{
     border: none;
-    font-size: 15px;
+    font-size: 19px;
     color: white;
     background-color:#2c527f;
 }
@@ -128,6 +123,7 @@
        width: 50%;
     height: 100%;
     background-color: white;
+    color:#2c527f;
 }
 .contact-info1{
     width: 100%;
