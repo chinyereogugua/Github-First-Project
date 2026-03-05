@@ -14,7 +14,7 @@
     width: 100%;
     height: 100%;
     background-color: blue;
-    background: url("/public/image.jpg");
+    background: url("/public/360_F_340757286_3ZZS0CAJBxHYdOMHiHsD7FLyC8YRj1Kc.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -109,8 +109,8 @@
 }
 .form-btn{
     width: 90%;
-    height: 10%;
-    background-color:rgb(5, 5, 113);
+    height: 14%;
+    background-color:#2c527f;
     display: flex;
     /* flex-direction: column; */
     justify-content:center;
@@ -122,10 +122,40 @@
     border: none;
     font-size: 15px;
     color: white;
-    background-color: rgb(5, 5, 113);
+    background-color:#2c527f;
 }
 .contact-info{
        width: 50%;
     height: 100%;
-    background-color: red;
+    background-color: white;
+}
+.contact-info1{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+.contact-info1Text1{
+    height: 25%;
+     /* background-color: red; */
+    font-size: 30px;
+}
+.contact-info1Text2{
+        height: 25%;
+     /* background-color: silver; */
+    font-size: 25px;
+}
+.contact-info1Text3{
+        height: 25%;
+     /* background-color: rebeccapurple; */
+    font-size: 25px;
+}
+.contact-info1Text4{
+        height: 25%;
+     /* background-color: gold; */
+    font-size: 25px;
+}
+.map{
+     width: 100%;
+    height: 50%;
+    background:url("/public/a-generic-city-map-with-icons-2FJTHCG.jpg");
 }
