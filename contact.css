@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#contact{
+    width: 100%;
+    height: 100vh;
+    max-height: min-content
+    /* background-color: blue; */
+}
+.contact-wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    background: url("/public/image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-holder{
+    width: 85%;
+    height: 25%;
+    /* background: url("/public/WhatsApp\ Image\ 2026-03-05\ at\ 1.20.46\ PM.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+
+}
+.contact-holder1 h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.contact-holder2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.contact-content{
+    width: 100%;
+    height: 75%;
+    background-color: white;
+     display: flex;
+    justify-content: center;
+    
+}
+.contact-content-wrapper{
+    width: 85%;
+    height: 90%;
+    /* background-color: gray; */
+    display: flex;
+    margin-top: 3%;
+    
+}
+.contact-form{
+    width: 50%;
+    height: 100%;
+    /* background-color: blanchedalmond; */
+}
+.form-group{
+    width: 90%;
+    height: 20%;
+    /* background-color: hotpink; */
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    font-size: 20px;
+}
+.form-name{
+    width: 100%;
+    height: 40%;
+}
+.form-group1{
+    width: 90%;
+    height: 20%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.email{
+    font-size: 20px;
+}
+.form-email{
+    width: 100%;
+    height: 40%;
+}
+.form-group2{
+    width: 90%;
+    height: 40%;
+    /* background-color: darkorange; */
+    display: flex;
+    flex-direction: column;
+}
+.message{
+    font-size: 20px;
+}
+.form-message{
+    width: 100%;
+    height: 100%;
+}
+.form-btn{
+    width: 90%;
+    height: 10%;
+    background-color:rgb(5, 5, 113);
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:center;
+    align-items: center;
+    margin-top: 5%;
+   
+}
+.submit{
+    border: none;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(5, 5, 113);
+}
+.contact-info{
+       width: 50%;
+    height: 100%;
+    background-color: red;
+}
