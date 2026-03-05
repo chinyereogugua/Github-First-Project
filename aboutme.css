@@ -40,4 +40,55 @@ color: aliceblue;
   margin-top:5px;
  
 }
- 
+  /* SECONDSECTION */
+  .text4{
+    text-align: center;
+    font-size: 30px;
+  }
+  .container3{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .img2{
+    width: 5rem;
+  }
+
+  .container4{
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+  }
+  .img3{
+    width: 20rem;
+  }
+  .img4{
+    width: 20rem;
+  }
+  .img5{
+  width: 19rem;
+  height: 13.4rem;
+  }
+ .text5{
+    font-size: 30px;
+  text-align: center;
+ }
+  .text6{
+   font-size: 20px;
+   text-align: center;
+   margin-bottom: 0;
+  }
+
+  .text7{
+    margin-top: 10px;
+  }
+  .div1{
+   width: 20rem;
+  }
+  .btn1{
+    padding: 15px;
+    background-color: rgb(16, 59, 75);
+    color: aliceblue;
+    font-weight: bold;
+    border-style: none;
+  }
