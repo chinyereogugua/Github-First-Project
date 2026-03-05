@@ -38,8 +38,46 @@ li{
     text-decoration: none;
 }
 .body_container{
-background: #bfbae5;
-width: 100%;
-height:60%;
+background-color: orchid;
 
+width: 100%;
+height:70%;
+display: flex;
+
+}
+.body_content{
+    background-color:rgb(214,228,237);
+    width:50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+    & h1{
+        font-size: 40px;
+        color:white;
+    }
+    & h3{
+        font-size: medium;
+    }
+    & button{
+        background-color:navy ;
+        color: white;
+        font-size: 15px;
+        width:110px;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+}
+.body_image{
+     background-color: rgb(220, 220, 15);
+    width:50%;
+    height: 100%;
+    & img{
+      width: 100%;
+      height:100%;  
+    }
 }
