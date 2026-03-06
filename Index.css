@@ -214,13 +214,16 @@ color: aliceblue;
   }
 
 
-
-
-  #contact{
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#contact{
     width: 100%;
     height: 100vh;
     max-height: min-content
-    /* background-color: blue; */
 }
 .contact-wrapper{
     width: 100%;
@@ -369,3 +372,5 @@ color: aliceblue;
 }
 
 
+
+  
