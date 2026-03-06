@@ -1,0 +1,95 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container1{
+   background-color: rgb(16, 59, 75); 
+}
+main{
+    margin-top: 3.5rem;
+}
+.container2{
+   display: flex;
+   justify-content: space-between;
+}
+.img1{
+    width:30rem;
+}
+.text1{
+  color: aliceblue;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+
+.text2{
+color: aliceblue;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 7px;
+   margin-bottom: 0;
+}
+
+.text3{color: aliceblue;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  margin-top:5px;
+
+}
+ 
+  /* SECONDSECTION */
+  .text4{
+    text-align: center;
+    font-size: 30px;
+  }
+  .container3{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .img2{
+    width: 5rem;
+  }
+
+  .container4{
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+  }
+  .img3{
+    width: 20rem;
+  }
+  .img4{
+    width: 20rem;
+  }
+  .img5{
+  width: 19rem;
+  height: 13.4rem;
+  }
+ .text5{
+    font-size: 30px;
+  text-align: center;
+ }
+  .text6{
+   font-size: 20px;
+   text-align: center;
+   margin-bottom: 0;
+  }
+
+  .text7{
+    margin-top: 10px;
+  }
+  .div1{
+   width: 20rem;
+  }
+  .btn1{
+    padding: 15px;
+    background-color: rgb(16, 59, 75);
+    color: aliceblue;
+    font-weight: bold;
+    border-style: none;
+  }
